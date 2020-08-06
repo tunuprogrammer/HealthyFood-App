@@ -1,0 +1,149 @@
+Oncreate--Is the stste by which an activity start to create itself/To load the contents &layouts folders on ur application
+0n start             |
+OnResume             |
+onPause              |
+OnSaveInstanceState  |
+Onstop               |
+OnDestroy            |
+==Data should be preserved when user exit the app
+==relativeLayout: means each element present in our activity is going to be placed in relation to each other
+==constraintLayout: It allows you to position and size widgets in a flexible way
+==THIS: Is a reference variable that refer to the current object./can be used to refer instance variable of current class
+==DIP(density independent pixel) it helps that an app looks similar in every device
+==Pixels: it change depends on the size of pixel of every device
+
+   /// code to remove the top top action bar///
+   getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+==view.view: Represents the view that received the click event
+     view v: To refer any component from XML you have to use v to gets its id of the cmpnt
+
+EventHandling has 2parts 
+         --listening event(eventlistener)
+         --callback method
+   ////To get reference of the button
+     Button btn=(Button) findViewById(R.id.button1); //to get reference of the id button
+                |its typecasting--is the process of convertin one type wich coould be class,interface to another
+
+
+
+/////TOAST
+@Override
+public void onClick(View view) {
+    Toast.makeText(view.getContext(), "open number activity", Toast.LENGTH_SHORT).show();
+    Intent i = new Intent(view.getContext(),NumberActivity.class);
+   view.getContext().startActivity(i);
+
+}
+
+
+fragments: Is when you want to place 2activity in single activity
+//To manage the fragment we need fragmentManager that helps us to manage transaction btn fragments.
+//With transaction we mean sequence of steps to add,replace or remove fragments. 
+
+OnMapRreadyCallback: This callback interface invokes when it instance is set on MapFragment object.
+The onMapReady(GoogleMap) method of OnMapReadyCallback interface is called when the map is ready to used. 
+In the onMapReady(GoogleMap) method we can add markers, listeners and other attributes.
+
+/////keyssssssssssssss
+AIzaSyC-yENlECwzHay3PhsA1EDyquCDtavY3nA
+
+
+
+////Material icon selection for android developer
+(https://material.io/resources/icons/?icon=settings&style=baseline)
+///LISTVIEW BEST TUT GUIDER
+(https://appsandbiscuits.com/listview-tutorial-android-12-ccef4ead27cc)
+
+
+//CODES TO LINK THE SHARE ITEM TO THE OTHER APPS
+   if(item.getItemId() == R.id.share_menu)
+        {
+            //create a send intent
+            Intent i=new Intent(Intent.ACTION_SEND);
+            //Set the sharing type
+            //It can be image/jpg,video/mp4,application/pdf,text/html
+            i.setType("text/plain");
+            //Build the Share content
+            String app_url="https://play.google.com/store/movies";
+            //pass content to the Intent
+            //You can add extra_email,extra_cc,extra_bcc,extra_subject
+            i.putExtra(android.content.Intent.EXTRA_TEXT,app_url);
+            Intent share=Intent.createChooser(i,"Share Via");
+            startActivity(share);
+        }
+
+//CODES TO LINK THE RATEUS ITEM TO THE SPECIFIC APP IN PLAY STORE
+   if(item.getItemId() ==R.id.rate_us_menu)
+        {
+           try
+           {
+             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id="+"cn.xender")));
+            }
+           catch (ActivityNotFoundException e)
+           {
+               Intent i=new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id"
+                       +getPackageName()));
+               startActivity(i);
+           }
+
+        }
+/////altenative for Rate Us
+ try
+           {
+               Uri makeUri=Uri.parse("market://details?id="+"cn.xender");
+               Intent marketIntent=new Intent(Intent.ACTION_VIEW,makeUri);
+               startActivity(marketIntent);
+            }
+catch (ActivityNotFoundException e)
+           {
+               Uri url_link=Uri.parse("https://play.google.com/store/apps/details?id" +getPackageName());
+               Intent i=new Intent(Intent.ACTION_VIEW,url_link);
+               startActivity(i);
+           }
+/////ORRRRRRRRRRRRRRR   altenative for Rate Us
+ if(item.getItemId() ==R.id.rate_us_menu)
+        {
+            Intent i=new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse("https://play.google.com/store/apps/details?id=cn.xender"));
+            //pass com.android.vending into package() so that users see ur app's details in google play store instead of chooser
+            i.setPackage("com.android.vending");
+            startActivity(i);
+        }
+
+
+//CODES TO link THE OTHERAPPS ITEM TO OPEN OTHER APPS ON PLAYSTORE
+if(item.getItemId() == R.id.other_apps_menu)
+        {
+           Intent i=new Intent(Intent.ACTION_VIEW);
+         //COLLECTION NAMES::topselling_paid,movers_shakers,topselling_new_free,topselling_new_paid,topgrossing  
+           i.setData(Uri.parse("https://play.google.com/store/apps/collection/topselling_free"));
+       //pass com.android.vending into package() so that users see ur app's details in google play store instead of chooser
+           i.setPackage("com.android.vending");
+           startActivity(i);
+
+ *****************************************************************MY BEST COLOR(#F6D9D9)**********************************************************************
+
+///HOW TO ADD BULLETE IN TEXT///////
+<string name=”Rs”>\u20B9</string>
+<string name=”filled_bullet”>\u25CF</string>
+<string name=”linear_bullet”>\u25CB</string>
+<string name=”rect_bullet”>\u25A0</string>
+<string name=”blank_rect”>\u25A1</string>
+<string name=”true_tick”>\u2713</string>
+<string name=”star”>\u2605</string>
+
+
+////IDE ERROR OCCURED/////
+ALTERNATIVELY IF ALL THESE ABOVE STEPS DON’T WORK..TRY THIS ONE :
+
+GO TO THE DIRECTORY WHERE YOUR ANDROID STUDIO IS INSTALLED
+OPEN THE FOLDER NAMED BIN
+LOOK FOR A FILE CALLED “idea>properties” (without quotation marks)
+OPEN THAT FILE WITH A TEXT EDITOR (eg-Notepad ++)
+GO TO THE FINAL LINE HIT ENTER TO START A NEW LINE AFTER THE EXISTING LINE..AND ADD THIS CODE
+“disable.android.first.run=true” (again without quotation marks)
+NOW SAVE THE FILE
+RESTART ANDROID STUDIO
+
+          
