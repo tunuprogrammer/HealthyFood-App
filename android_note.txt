@@ -27,7 +27,7 @@ EventHandling has 2parts
 
 
 
-/////TOAST
+//TOAST
 @Override
 public void onClick(View view) {
     Toast.makeText(view.getContext(), "open number activity", Toast.LENGTH_SHORT).show();
@@ -45,12 +45,12 @@ OnMapRreadyCallback: This callback interface invokes when it instance is set on 
 The onMapReady(GoogleMap) method of OnMapReadyCallback interface is called when the map is ready to used. 
 In the onMapReady(GoogleMap) method we can add markers, listeners and other attributes.
 
-/////keyssssssssssssss
+//keyssssssssssssss
 AIzaSyC-yENlECwzHay3PhsA1EDyquCDtavY3nA
 
 
 
-////Material icon selection for android developer
+//Material icon selection for android developer
 (https://material.io/resources/icons/?icon=settings&style=baseline)
 ///LISTVIEW BEST TUT GUIDER
 (https://appsandbiscuits.com/listview-tutorial-android-12-ccef4ead27cc)
@@ -88,7 +88,7 @@ AIzaSyC-yENlECwzHay3PhsA1EDyquCDtavY3nA
            }
 
         }
-/////altenative for Rate Us
+//altenative for Rate Us
  try
            {
                Uri makeUri=Uri.parse("market://details?id="+"cn.xender");
@@ -101,7 +101,7 @@ catch (ActivityNotFoundException e)
                Intent i=new Intent(Intent.ACTION_VIEW,url_link);
                startActivity(i);
            }
-/////ORRRRRRRRRRRRRRR   altenative for Rate Us
+//OR   altenative for Rate Us
  if(item.getItemId() ==R.id.rate_us_menu)
         {
             Intent i=new Intent(Intent.ACTION_VIEW);
