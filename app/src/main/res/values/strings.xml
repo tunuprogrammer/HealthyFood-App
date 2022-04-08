@@ -1,0 +1,188 @@
+<resources>
+    <string name="app_name">Healthy Food Care</string>
+    <string name="logoname">HEALTHY FOOD CARE</string>
+    <string name="healthy">HEALTHY FOOD CARE</string>
+    <string name="care">Care your healthy</string>
+    <string name="main">main logo</string>
+    <string name="login">Signin Here</string>
+    <string name="loginbtn">Login</string>
+    <string name="email">Email</string>
+    <string name="pword">Password</string>
+    <string name="click">clickhere</string>
+    <string name="link">Not Registered?</string>
+    <string name="register">Register</string>
+    <string name="anemia">anemia</string>
+    <string name="search">search....</string>
+    <string name="notification">Notification</string>
+    //for searchable part
+    <string name="settings_description">diseases name</string>
+    <string name="hint">Search</string>
+    <string name="label">Healthy Food Care</string>
+    //anemia INTRO
+    <string name="anemiaintro1">Anemia Is due to low number of red blood cells.In a routine blood test,
+        anemia is reported as a low haemoglobin or hematocrit.Haemoglobin is the main protein in your Red Blood Cells.
+        \n\nIt carries oxygen,and delivers it throughout your body.If you have anemia,uou haemoglobin level will be low too.
+        And even your tissue may not get enough oxygen.</string>
+    <string name="anemiacause">Anemia occurs when there are not enough red blood cells to carry oxygen to your bodys organs.
+        As a result ,its a common to feel cold and symptoms of tiredness or weakness.\n\n Anemia is a medical condition in which
+        the red blood cell count or the hemoglobin is less than normal.\n\n \u25CFIn men\n anemia is typically defined as
+        hemoglobin level of less than 13.5 gram/100 ml; \n\u25CFIn women\n as hemoglobin of less than 12.0 gram/100 ml.
+        \n\nAnemia is caused by either a decrease in production of red blood cells (decreased erythropoiesis) or hemoglobin,
+        or an increase in loss (usually due to bleeding) or destruction of red blood cells.</string>
+    //anemia sympt
+    <string name="symptoms">Initially, iron deficiency anemia can be so mild that it goes unnoticed. But as the body becomes
+        more deficient in iron and anemia worsens, the signs and symptoms intensify.\n\nIron deficiency anemia signs and symptoms
+        may include:\n</string>
+    <string name="star1">\u2605 feel tired,</string>
+    <string name="star2">\u2605 become easily fatigued,</string>
+    <string name="star3">\u2605 have a feeling of a heart racing,</string>
+    <string name="star4">\u2605feel short of breath, and</string>
+    <string name="star5">\u2605 have worsening heart problems.</string>
+    <string name="star6">\u2605 Unusual cravings for non-nutritive</string>//substances,such as ice,
+    dirt or starch
+    <string name="name_error">name is required</string>
+    <string name="namelength_error">min name length is 3characters</string>
+
+    <string name="email_error">Email field can not be empty</string>
+    <string name="error_invalid_email">Please enter a valid email</string>
+
+    <string name="password1_error">password is required</string>
+    <string name="passwordlength_error">min password length has to be 6</string>
+    <string name="PASSWORD_PATTERN">white space is not allowed,Atleast 6characters</string>
+    <string name="password2_error">Re-enter password</string>
+
+    <string name="passmatch">password does not match</string>
+
+    <string name="phnlength_error">PhoneNumber must have 10digits</string>
+    <string name="phone_error">Field can not be empty</string>
+
+    <string name="first">Leafy greens:</string>
+    <string name="second">Leafy greens, especially dark ones, are among the best sources of nonheme iron. They include:\n
+    spinach,collard greens,dandelion greens.</string>
+    <string name="third">Seafood:</string>
+    <string name="forth">Some seafood provides heme iron.
+        Shellfish such as oysters, clams, scallops, crabs, and shrimp are good sources. Most fish contain iron.</string>
+    <string name="fifth">Other examples of calcium-rich foods include:\n\u25CFdairy milk\n\u25CFyogurt\n\u25CFcheese</string>
+    <string name="six">Beans:</string>
+    <string name="seven">Beans are good sources of iron for vegetarians and meat eaters alike.
+        They’re also inexpensive and versatile.\nSome iron-rich options are:\n\u25CFkidney beans\n\u25CFchickpeas
+        \n\u25CFsoybeans\n\u25CFblack beans</string>
+    <string name="eight">Nuts and seeds:</string>
+    <string name="nine">Many types of nuts and seeds are good sources of iron.
+        They taste great on their own or sprinkled on salads or yogurt.\nSome nuts and seeds that contain iron are:
+        \n\u25CFpumpkin seeds\n\u25CFcashews\n\u25CFpistachios\n\u25CFpine nuts\n\u25CFsunflower seeds</string>
+    <string name="cancer">Cancer</string>
+    <string name="cintro">Is a disease in which cells in the body grow out of control.
+        When cancer starts in the lungs, it is called lung cancer.\nLung cancer begins in the lungs and may spread to lymph nodes or other organs in the body, such as the brain. Cancer from other
+        organs also may spread to the lungs. When cancer cells spread from one organ to another, they are called metastases.</string>
+    <string name="Csymptoms">Symptoms</string>
+    <string name="symptoms_list">Lung cancer typically does not cause signs and symptoms in its earliest stages.
+        Signs and symptoms of lung cancer typically occur when the disease is advanced.\nSigns and symptoms of lung
+        cancer may include:</string>
+    <string name="list1">\u2605 A new cough that doesnt go away</string>
+    <string name="list2">\u2605 Coughing up blood, even a small amount</string>
+    <string name="list3">\u2605 Losing weight without trying</string>
+    <string name="list4">\u2605 Headache</string>
+    <string name="Cdiet">\nHealthy Diet for a Cancer Patient</string>
+    <string name="food1">Choose protein-rich foods.</string>
+    <string name="foodexpl"> Protein helps the body to repair cells and tissues. It also helps your immune system
+        recover from illness. Include a source of lean protein at all meals and snacks.</string>
+    <string name="foodlist"> Good sources of lean protein include:\n\u25CFEggs \n\u25CFSoy foods \n\u25CFNuts and nut butters
+    \n\u25CF Lean meats such as chicken, fish, or turkey</string>
+    <string name="food2">Eat fruits and vegetables every day.</string>
+    <string name="foodexp2">Fruits and vegetables offer the body antioxidants, which can help fight against cancer. Choose a variety of
+        colorful fruits and vegetables to get the greatest benefit. Aim to eat a minimum of 5 servings of whole fruits and
+        vegetables daily.</string>
+    <string name="food3">Use good mouth care.</string>
+    <string name="foodexp3">Chemotherapy and radiation to the head or chest can irritate the lining of the mouth, throat, and esophagus.
+        Brush your teeth with gentle toothpaste after eating and floss daily.</string>
+    <string name="food4">Drink alcohol in moderation, if at all.</string>
+    <string name="foodexp4">Alcohol may contribute to dehydration, can lower
+        the abilities of your immune system, and provides no beneficial nutrients.</string>
+    <string name="leuk1">Is a cancer of the bodys blood-forming tissues,including the bone marrow
+        and the lymphatic system.\nLeukemia usually involves the white blood cells. Your white blood
+        cells are potent infection fighters they normally grow and divide in an orderly way,as your body needs them
+        . But in people with leukemia, the bone marrow produces abnormal white blood cells, which dont function properly.</string>
+    <string name="leuk2">Leukemia is thought to occur when some blood cells acquire mutations in their DNA — the instructions
+        inside each cell that guide its action.There may be other changes in the cells that have yet to be fully understood
+        that could contribute to leukemia.</string>
+    <string name="leukfood">Diet for a Leukemia Patient</string>
+    <string name="f1">Eat Your Fruits and Vegetables:</string>
+    <string name="f11">Aim for 5-10 servings of fruits and vegetables each day.
+        One serving is half a cup for most fruits and veggies and one cup for leafy greens, melons and berries.
+    </string>
+    <string name="f2">Drink Enough Water:</string>
+    <string name="f22">Drinking enough water during cancer treatment is especially important because:
+        \n\u2605Liquids can help relieve fatigue or constipation\n\u2605Some treatment side effects,
+        such as diarrhea or vomiting, can contribute to dehydration \n\u2605Certain cancer therapies,
+        including drug therapies and radiation therapy, can cause dehydration</string>
+    <string name="f3">Make protein a priority. </string>
+    <string name="f4">Its very important for patients with leukemia to get protein because it will keep them strong.
+        If a hamburger doesnt appeal to you,try cooking something a little more bland, such as a piece of fish or
+        chicken without much seasoning.</string>
+    <string name="m1">It is a life-threatening mosquito-borne blood disease.The Anopheles mosquito transmits it to humans
+    .The parasites in mosquitos that spread malaria belong to the Plasmodium genus.Over 100 types of Plasmodium parasite
+        can infect a variety of species.</string>
+    <string name="m2">What causes malaria?</string>
+    <string name="m3">Malaria can occur if a mosquito infected with the Plasmodium parasite bites you. There are four
+        kinds of malaria parasites that can infect humans: Plasmodium vivax, P. ovale, P. malariae, and P. falciparum.</string>
+    <string name="m4">Symptoms of malaria</string>
+    <string name="m5">Symptoms progress as follows, through cold, hot, and sweating stages:
+        \n\u25CF a sensation of cold with shivering\n\u25CFfever,headaches, and vomiting \n\u25CFsweats,
+        followed by a return to normal temperature,with tiredness \n\u25CFseizures to younger people
+        with the disease</string>
+    <string name="m6">Diet to be eaten for Malaria patient</string>
+    <string name="m7">Have a high protein diet</string>
+    <string name="m77">This helps to protect the body and helps in the synthesis of immune bodies which will
+        fight against parasites.</string>
+    <string name="m8">Always take multivitamins</string>
+    <string name="m88">Opt for B-complex, and minerals. Vitamin A and Vitamin C rich foods such as carrot,beetroots,papaya,
+        fruits especially citrus fruits(e.g. orange,mausambi, pine apple,grapes,berries,lemon,etc), with vitamin B
+        complex are very useful to boost immunity.</string>
+    <string name="m9">Diet to be avoided for malaria patient</string>
+    <string name="m10">\u25CF  Stay away from fats\n\u25CFSpicy,fried and
+        refined food should be avoided \n\u25CFCake, pastries,maida should be avoided.
+        \n\u25CFAvoid hot tea and coffee.\n\u25CFSauces and pickles should not be taken.</string>
+    <string name="m11">Work on your carbs</string>
+    <string name="m11list">High carbohydrate diet should be taken that will digest quickly and will release energy.</string>
+    <string name="g1">Goiter is a condition in which the thyroid gland grows larger.The thyroid gland is a small,
+        butterfly-shaped gland located in the neck\nThe thyroid gland produces the hormones thyroxine(also called T4) and
+        triiodothyronine (also called T3).</string>
+    <string name="g2">What causes goiter?</string>
+    <string name="g3">\u25CFSimple goiters develop when the thyroid gland does not make enough hormones to meet the bodys needs.
+        \n\u25CFSporadic goiters, in most cases, have no known cause. In some cases, certain drugs can cause this type of goiter.
+        \n\u25CFEndemic goiters occur in people in certain parts of the world who do not get enough iodine in their diet.</string>
+    <string name="g4">Thyroid Superfoods</string>
+    <string name="g5"> Roasted seaweed</string>
+    <string name="g6">Seaweed, such as kelp,nori,and wakame, are naturally rich in iodine—a
+        trace element needed for normal thyroid function. Eat seaweed with sushi or get packaged
+        seaweed snacks to toss in salads.</string>
+    <string name="g7">Baked Fish</string>
+    <string name="g8">Fish is rich in Omega-3 fatty acids and selenium, which both help decrease inflammation.
+        Bake salmon, cod, sea bass, haddock, or perch for lunch or dinner to get a healthy dose of Omega-3s and selenium.</string>
+    <string name="g9">Frozen yogurt</string>
+    <string name="g10">Dairy products like yogurt,ice cream, and milk contain iodine.The thyroid needs iodine to prevent
+        its glands from becoming enlarged—known as goiter.Treat yourself to a low-fat serving of frozen yogurt to get
+        sufficient levels of iodine.</string>
+    <string name="terms">This app is create inorder to give you information about Healthy and food diets.\nAnd your not allowed
+    to access the App without permission.HEALTHY FOOD CARE App it provides you the basic information which can help the society.</string>
+    <string name="dia">Diabetes is a metabolic disease that causes high blood sugar.
+        The hormone insulin moves sugar from the blood into your cells to be stored or used for energy.
+        With diabetes, your body either doesn’t make enough insulin or can’t effectively use the insulin it does make.</string>
+    <string name="dia2">Symptoms of Diabetes</string>
+    <string name="dia3">\u2605increased hunger\n\u2605increased thirst\n\u2605frequent urination\n\u2605sores that don’t heal
+        \n\u2605blurry vision \n\u2605weight loss</string>
+    <string name="dia4">Reasons for diabetes to occur</string>
+    <string name="dia5"> \u25CFWhen a person eats too much sugar or fructose the liver converts this into excessive fat that
+        is accumulated in the body’s cells.As a result insulin receptors are becoming inefficient in absorbing sugar
+        from the blood, and blood sugar levels stay\n\u25CF Chronic inflammation is another mechanism that has been shown
+        to cause insulin resistance. Obesity,the metabolic syndrome and diabetes have a common inflammatory denominator that
+        results in insulin resistance.
+        high. </string>
+    <string name="dia6">Diabetes Diets Recommendatios</string>
+    <string name="dia7">Eat Plenty of whole fruits and vegetables</string>
+    <string name="dia8">Cut out alcohol.</string>
+    <string name="dia9">Patients </string>
+</resources>
+
+

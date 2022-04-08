@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6D9D9"
+    tools:context=".anemia_page">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextColor="@color/colorwhite"
+        app:title="ANEMIA DISEASE"
+        app:titleMarginStart="100dp"
+        android:theme="@style/AppTheme"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:background="@drawable/anemia2"
+                android:orientation="vertical"
+                android:layout_below="@+id/toolbar"
+                android:layout_height="150dp"/>
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:onClick="linear1"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/linearLayout1"
+                android:background="@drawable/framecard"
+                android:layout_height="60dp"
+                android:layout_marginTop="80dp">
+
+                <ImageView
+                    android:layout_width="39dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/imagecard"
+                    android:src="@drawable/question_mark1" />
+
+                <TextView
+                    android:layout_width="310dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="1dp"
+                    android:fontFamily="@font/abhaya_libre_bold"
+                    android:text="What is Anemia"
+                    android:textSize="35sp" />
+                <ImageView
+                    android:id="@+id/arrow1"
+                    android:onClick="arrow1"
+                    android:layout_width="40dp"
+                    android:layout_marginLeft="0dp"
+                    android:src="@drawable/ic_keyboard_black"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:onClick="linear2"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/linearLayout2"
+                android:background="@drawable/framecard"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/imagecard"
+                    android:src="@drawable/anemia"/>
+
+                <TextView
+                    android:layout_width="310dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="1dp"
+                    android:fontFamily="@font/abhaya_libre_bold"
+                    android:text="Anemia Causes"
+                    android:textSize="35sp" />
+                <ImageView
+                    android:id="@+id/arrow2"
+                    android:layout_width="40dp"
+                    android:onClick="arrow2"
+                    android:layout_marginLeft="0dp"
+                    android:src="@drawable/ic_keyboard_black"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:onClick="linear3"
+                android:layout_below="@+id/linearLayout3"
+                android:background="@drawable/framecard"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/imagecard"
+                    android:src="@drawable/anemia3" />
+
+                <TextView
+                    android:layout_width="325dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:fontFamily="@font/abhaya_libre_bold"
+                    android:text="Anemia Symptom"
+                    android:textSize="35sp" />
+                <ImageView
+                    android:id="@+id/arrow3"
+                    android:layout_width="40dp"
+                    android:layout_marginLeft="0dp"
+                    android:src="@drawable/ic_keyboard_black"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:orientation="horizontal"
+                android:onClick="linear4"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/linearLayout4"
+                android:background="@drawable/framecard"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/imagecard"
+                    android:src="@drawable/fudicon"/>
+
+                <TextView
+                    android:layout_width="295dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:fontFamily="@font/abhaya_libre_bold"
+                    android:text="Required Foods"
+                    android:textSize="35sp" />
+                <ImageView
+                    android:id="@+id/arrow4"
+                    android:layout_width="40dp"
+                    android:layout_marginLeft="0dp"
+                    android:src="@drawable/ic_keyboard_black"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

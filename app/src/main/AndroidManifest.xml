@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.healthyfoodcare">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".diabetes"></activity>
+        <activity android:name=".Goitre" />
+        <activity android:name=".malaria" />
+        <activity android:name=".leukemia" />
+        <activity android:name=".lungcancer" />
+        <activity android:name=".anemia_food" />
+        <activity android:name=".anemia_symptoms" />
+        <activity android:name=".anemia_causes" />
+        <activity android:name=".anemia_intro" />
+        <activity android:name=".anemia_page" />
+        <activity android:name=".share" />
+        <activity android:name=".Terms_of_use" />
+        <activity android:name=".apps_info" />
+        <activity android:name=".home" />
+        <activity android:name=".Dashboard_page" />
+        <activity android:name=".DiseasesPage" />
+        <activity android:name=".register" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

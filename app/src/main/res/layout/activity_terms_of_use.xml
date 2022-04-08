@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6D9D9"
+    tools:context=".Dashboard_page">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ToolbarTheme"
+        app:title="TERMS OF USE"
+        app:titleTextColor="#fff"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:background="@drawable/menu"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:alpha=".7"
+                    android:background="#000"
+                    android:gravity="center"
+                    android:text="@string/healthy"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:textAlignment="center"
+                    android:textColor="#F9F3EFED"
+                    android:textSize="22sp"
+                    android:textStyle="normal|bold" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terms Of use Informations"
+                android:textSize="27sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:fontFamily="serif"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/terms"
+                android:textSize="18sp"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimary"/>
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

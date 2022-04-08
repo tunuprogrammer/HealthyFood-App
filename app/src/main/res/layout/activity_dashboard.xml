@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6D9D9"
+    tools:context=".Dashboard_page">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ToolbarTheme">
+
+    </androidx.appcompat.widget.Toolbar>
+
+<ScrollView
+    android:layout_below="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:background="@drawable/menu"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:alpha=".7"
+                android:background="#000"
+                android:gravity="center"
+                android:text="@string/healthy"
+                android:textAlignment="center"
+                android:textColor="#F9F3EFED"
+                android:textSize="22sp"
+                android:fontFamily="@font/alfa_slab_one"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingTop="40dp">
+
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="170dp"
+                android:orientation="vertical"
+                android:background="@drawable/bg_cae"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_notifications_black_24dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:gravity="center"
+                    android:text="Notification"
+                    android:textSize="24sp"
+                    android:fontFamily="@font/abhaya_libre_bold"/>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="40dp"
+                android:layout_height="18dp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="160dp"
+                android:layout_height="170dp"
+                android:onClick="linear6"
+                android:background="@drawable/bg_cae"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="vertical"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/diseases"
+                    android:layout_width="140dp"
+                    android:layout_height="114dp"
+                    android:src="@drawable/cross" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:gravity="center"
+                    android:text="Diseases"
+                    android:textSize="24sp"
+                    android:fontFamily="@font/abhaya_libre_bold"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingTop="40dp">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="160dp"
+                android:layout_height="170dp"
+                android:onClick="linear7"
+                android:background="@drawable/bg_cae"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="vertical"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_person_black_24dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:gravity="center"
+                    android:text="Apps info"
+                    android:textSize="24sp"
+                    android:fontFamily="@font/abhaya_libre_bold"/>
+
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:onClick="linear5"
+                android:layout_width="160dp"
+                android:layout_height="170dp"
+                android:background="@drawable/bg_cae"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="vertical"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_share_black_24dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:gravity="center"
+                    android:text="Share"
+                    android:textSize="24sp"
+                    android:fontFamily="@font/abhaya_libre_bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+</RelativeLayout>

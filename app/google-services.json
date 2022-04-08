@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "338444790666",
+    "firebase_url": "https://my-application-d42aa.firebaseio.com",
+    "project_id": "my-application-d42aa",
+    "storage_bucket": "my-application-d42aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338444790666:android:df2b7ad7eb90ef956f7673",
+        "android_client_info": {
+          "package_name": "com.example.healthyfoodcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338444790666-906b97miak5b9815qc5om4eq7iafvcul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthyfoodcare",
+            "certificate_hash": "b67e7a67f8b6973f69fd32d16b5ec934addf510c"
+          }
+        },
+        {
+          "client_id": "338444790666-t9f1gama5piddt9v08asvsriv5o797a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY9EnrZPoWFwoHrFwBGi8FI6ewc0K1WvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338444790666-t9f1gama5piddt9v08asvsriv5o797a5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
